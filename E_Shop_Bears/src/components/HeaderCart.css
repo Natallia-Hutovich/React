@@ -1,0 +1,25 @@
+.header_cart{
+	}
+		.header_cart span{
+			font-weight:bold;
+			color:rgb(188,49,131);
+		}
+	.btn_shop{
+		display: block;
+		width:180px;
+		height:30px;
+		border-radius: 10px;
+		background: #58a;
+		border-bottom:2px #184563 solid;
+		margin:10px;
+		text-decoration: none;
+		font-size:1rem;
+		line-height: 30px;
+		color: #fff;		
+	}	
+	.btn_shop:hover{
+		font-weight:bold;
+		background-color:#184563;
+	}	
+	
+	

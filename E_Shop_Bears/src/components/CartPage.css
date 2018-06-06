@@ -1,0 +1,23 @@
+.main_cart{
+	padding: 30px 30px 100px;
+}
+.main_cart h1{
+	font-size:2rem;
+	font-weight:bold;
+	color:#184563;
+	margin:20px 0 10px 10px;
+	text-align:center;
+}	
+.main_cart p{
+	line-height: 1.2;
+	margin: 0 0 10px;
+	color:rgb(81,81,81);
+	font-size:1.2rem;
+}
+	
+.main_cart h2{
+	margin:40px 0 15px;
+}
+
+
+	

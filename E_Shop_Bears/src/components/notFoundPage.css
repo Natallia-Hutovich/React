@@ -1,0 +1,23 @@
+.not-page-wrapper{
+	min-height:70px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-top:50px; 
+}	
+		.not-page-img{
+			width:70px;
+			height:70px;
+			margin-right:10px;
+			background:url(../img/bg/bg1.png) 0 0 no-repeat;
+		}
+		.not-page-text{
+			font-size:1.5rem;
+			color:#818181;
+		}
+		

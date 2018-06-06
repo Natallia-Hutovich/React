@@ -1,0 +1,39 @@
+.order_wrapper{
+		width:50%;
+		padding:0 20px;	
+	}
+	
+.order_form{
+			display:flex;
+			flex-flow:row wrap;
+			margin:30px auto; 
+			width:100%;
+			color:rgb(81,81,81);
+			font-size:1.2rem;
+			border-top:2px rgb(241,241,241) solid;
+			border-bottom:2px rgb(241,241,241) solid;
+		}
+			
+			.order_form input:not([type='radio']){
+				height:30px;
+				width:100%;
+			}
+			
+			.order_form input:not([type='radio']):focus{
+				outline:2px #58a solid;
+			}	
+			.order_form button[type='submit']{
+				width:250px;
+				height:50px;
+				margin:40px auto 15px;
+				color:rgb(81,81,81);
+				font-size:1.4rem;
+				font-weight:bold;
+				background-color:rgb(241,241,241);
+				
+			}
+			.order_form button[type='submit']:focus{
+				outline:none;
+			}	
+			
+			

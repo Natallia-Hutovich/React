@@ -1,0 +1,16 @@
+.header_title{
+		min-height:80px;
+		margin: 0 0 0 5px;
+		text-align:center;
+		background:url(../img/bg/main_bg1.png) left center no-repeat,url(../img/bg/main_bg2.png) right center no-repeat;
+		padding:0 80px 0;
+		position:relative;
+		display:flex;
+		
+	}
+		.header_title h1{
+			font-size:2.2em;
+			font-style:italic;
+			font-weight:bold;
+			margin:auto;		
+		}

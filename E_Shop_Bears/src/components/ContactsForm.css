@@ -1,0 +1,48 @@
+.contacts_form_wrapper{
+		padding: 30px 30px 10px;
+}
+.contacts_form_wrapper h2{
+			margin:40px 0 0;
+		}
+.contacts_form{
+			width:50%;
+			color:rgb(81,81,81);
+			font-size:1.2rem;
+			margin:30px 0 40px 50px; 
+		}
+			.contacts_form p{
+				line-height: 1.2;
+				margin: 0 0 15px;
+			}
+			.contacts_form label, .contacts_form input, .contacts_form textarea{
+				display:inline-block;
+				vertical-align:top;
+			}
+			.contacts_form label{
+				font-weight:bold;
+				width:120px;
+			}	
+			.contacts_form input{
+				height:30px;
+				width:350px;
+			}
+			.contacts_form textarea{
+				height:300px;
+				width:350px;
+			}
+			
+			.contacts_form input:focus, .contacts_form textarea:focus{
+				outline:2px #58a solid;
+			}	
+			.contacts_form button[type='submit']{
+				width:130px;
+				height:30px;
+				color:rgb(81,81,81);
+				font-size:1.2rem;
+				font-weight:bold;
+				background-color:rgb(241,241,241);
+				
+			}
+			.contacts_form button[type='submit']:focus{
+				outline:none;
+			}	

@@ -1,0 +1,55 @@
+@import url('reset.css');
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+}
+body{
+	min-width: 320px;
+	max-width: 1920px;
+	background: #fff;
+	font-family: Arial, sans-serif;
+	line-height: 1;
+}
+
+header, main, footer{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+h2{
+	font-size:1.4rem;
+	font-weight:bold;
+	color:#58a;
+}
+
+.img_auto{
+	display:block;
+	max-width:100%;
+	max-height:100%;
+}
+
+.border_round{
+	border-radius:5px;
+}
+
+.active_page{
+	color:rgb(255,255,255);
+}
+.hidden{
+	display:none;
+}
+.wrong{
+	outline:2px red solid;
+}
+
+.column_center{
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content:center;
+	align-items:center;
+}

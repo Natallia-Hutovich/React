@@ -1,0 +1,28 @@
+header{
+	background-color:#fff;
+}
+.header_top{
+	min-height: 80px;
+	position: relative;
+	width:80%;
+	margin:0 10% 0;
+	padding:10px 0;
+	line-height: 1.2;
+	color:rgb(85, 50, 85);
+	font-size:1.2rem;
+}
+	
+	.header_information{
+		padding:10px;
+		line-height: 1.4;
+		text-align:center;
+		display:flex;
+		flex-flow:row wrap;
+		justify-content:space-around;
+		align-items:center;
+	}	
+	
+		
+	
+		
+		

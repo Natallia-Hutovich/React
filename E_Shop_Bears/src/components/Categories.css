@@ -1,0 +1,18 @@
+.categories{
+	padding: 0px 10px 20px;
+	}
+	.categories ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}	
+	.categories ul a{
+		display: block;
+		padding: 5px 0 5px 10px;
+		text-decoration: none;
+		color: rgb(81,81,81);
+		font-size: 1.2rem;
+	}	
+	.categories ul a:hover{
+		color: #500767;
+	}

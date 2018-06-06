@@ -1,0 +1,19 @@
+.good-by{
+	position:relative;
+	min-height:70px;
+	margin:0 30px;
+}	
+		.good-by div{
+			display:inline-block;
+			vertical-align:middle;
+		}
+		.good-by div:nth-of-type(1){
+			font-size:2rem;
+			font-weight:bold;
+			color:#184563;
+		}
+		.good-by div:nth-of-type(2){
+			width:70px;
+			height:70px;
+			background:url(../img/bg/bg1.png) 0 0 no-repeat;
+		}

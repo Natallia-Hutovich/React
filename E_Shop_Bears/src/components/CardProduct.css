@@ -1,0 +1,63 @@
+.card{
+	width: 250px;
+	background-color: rgb(231,231,231);
+	position: relative;
+	padding: 15px 10px 0;
+	margin: 0 15px 30px;
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content:flex-start;
+}
+	.card_img{
+		background: #fff;
+		position: relative;
+		height: 250px;
+	}
+		
+	.card_name{
+		margin: 15px 0;
+		flex-grow:1;
+		text-align: center;
+		color: #500767;
+		font-size: 1.3rem;
+	}
+	
+	.card_text{
+		height:70px;
+		margin: 15px 0;
+		padding: 0 5px;
+		display: flex;
+		flex-flow:column nowrap;
+		justify-content:space-between;
+		align-items:center;
+	}
+		.card_buy{
+			position:relative;
+			width:100%;
+			font-size:1.2rem;
+			font-weight:bold;
+		}
+			.card_size{
+				float:left;
+				color: rgb(81,81,81);
+			}
+			.card_price{
+				float:right;
+				color:#184563;
+			}
+		.card_text button{
+			width: 100px;
+			height: 25px;
+			border-radius: 10px;
+			background: #58a;
+			color: #fff;
+			font-size:1rem;
+			border: none;
+			border-bottom:2px #184563 solid;
+			outline: none;
+		}
+		.card_text button:hover{
+			font-size:1.1rem;
+			font-weight:bold;
+			background-color:#184563;
+		}	

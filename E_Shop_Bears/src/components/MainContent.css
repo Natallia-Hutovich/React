@@ -1,0 +1,14 @@
+.main_content{
+	padding: 30px 15px;
+}
+
+.main_content h2{
+	font-size: 1.6rem;
+	margin: 0 0 10px 20px;
+}
+.card_block{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+}

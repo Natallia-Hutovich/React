@@ -1,0 +1,16 @@
+nav{
+		background: grey;
+		position: relative;
+		overflow: hidden;
+	}
+		nav	a{
+			display: block;
+			float: left;
+			height: 22px;
+			margin: 10px 20px;
+			text-decoration: none;
+			color: rgb(210,210,210);
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			font-weight:bold;
+		}

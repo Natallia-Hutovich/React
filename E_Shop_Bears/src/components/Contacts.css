@@ -1,0 +1,25 @@
+.main_contacts{
+	padding: 30px 30px 10px;
+	
+}
+.main_contacts p{
+	line-height: 1.2;
+	margin: 0 0 10px;
+	color:rgb(81,81,81);
+	font-size:1.2rem;
+}
+.main_contacts p span{
+	font-weight:bold;
+}	
+.main_contacts h1{
+	min-height:70px;
+	font-size:2rem;
+	font-weight:bold;
+	color:#184563;
+	margin:20px 0 10px 10px;
+	padding:20px 0 0 70px;
+}	
+.main_contacts h1:nth-of-type(1){
+		background:url(../img/bg/bg2.png) 0 0 no-repeat;
+		}	
+		

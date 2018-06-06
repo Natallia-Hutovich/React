@@ -1,0 +1,12 @@
+.menu_list{
+		line-height: 1.2;
+		margin: 0 0 10px;
+		color:rgb(81,81,81);
+	}
+	 .menu_list:hover{
+		 cursor:pointer;
+		 color: #500767;
+	 }	
+	 .menu_list_active{
+		 color: #500767; 
+	 }
